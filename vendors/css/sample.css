@@ -60,7 +60,6 @@ header ul:after {
 /* ここまでがheader部分の実装 */
 .main-header img {
   margin-top: 100px;
-  text-align: center;
 /* main画像（白い「Achieve」の文字の画像）部分の実装 */
 }
 .about {
@@ -73,22 +72,29 @@ header ul:after {
   display: block;
   height: 530px;
   padding-top: 5px;
+  padding: 20px 0 150px;
 }
 .function-images {
-  display: flex;
-  position: relative;
+  /* display: flex;
+  /* width: 1500px;
+  height: 500px;
+  margin: 0 auto;
+  width: 800px; */
+  /* padding-top: 60px; */
+  /* position: relative;
   top: 80px;
-  left: 560px;
+  left: 560px; */
 
 }
 .function-image {
-  display: block; 
-  margin-left: 30px;
-  margin-right: 50px;
+  display: inline-block; 
+  /* margin-left: 30px;
+  margin-right: 50px; */
 }
 .function-image img{
   max-width: 100%;
   height: auto;
+  padding: 0 20px;
 }
 /* ここまでがfunction部分の実装 */
 .footer {
